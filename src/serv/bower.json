@@ -1,0 +1,11 @@
+{
+  "name": "taxmod",
+  "homepage": "https://github.com/sudsred/taxmod",
+  "description": "Tax module for devoir",
+  "main": "serv.go",
+  "moduleType": [],
+  "authors": [
+    "Sudarshan Reddy"
+  ],
+  "license": "MIT"
+}

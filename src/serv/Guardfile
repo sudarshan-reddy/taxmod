@@ -1,0 +1,7 @@
+guard :livereload do 
+  watch(%r{.+\.(css|js|html)$})
+  watch(%r{app/public/. + \.(css|html|js)})
+  watch(%r{app/public/templates/. + \.(css|html|js)})
+  watch(%r{app/public/script/. + \.(css|html|js)})
+  watch(%r{app/public/styles/. + \.(css|html|js)})
+end
