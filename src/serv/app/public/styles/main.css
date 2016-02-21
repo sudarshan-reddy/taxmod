@@ -2,6 +2,7 @@
     background-color: #0099ed
 }
 
+
 html,
 body,
 div,
@@ -592,7 +593,6 @@ i.chevron-right:before {
 }
 .ripple {
     position: relative;
-    overflow: hidden
 }
 .ripple-effect {
     width: 50px;
@@ -2842,16 +2842,9 @@ nav a.active {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid #2A3239;
     position: fixed;
     z-index: 200;
-    overflow: hidden;
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    -webkit-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out
 }
 .notice-banner .btn.blue-outline {
     display: inline-block;
