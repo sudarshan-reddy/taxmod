@@ -1,1 +1,1 @@
-web: serv
+web: github.com/sudsred/taxmodi/serv
