@@ -1,1 +1,1 @@
-web: seriv
+web: serv
