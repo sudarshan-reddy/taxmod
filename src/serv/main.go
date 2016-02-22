@@ -6,7 +6,9 @@ import (
 	"fmt"
 	//"taxmain"
 )
-
+func test(w http.ResponseWriter, r *http.Request){
+	fmt.Fprintf(w, "testing server")
+}
 
 func main(){
 	fs := http.FileServer(http.Dir("app/public"))
@@ -16,5 +18,6 @@ func main(){
 		port = "5000"
 	}
 	http.Handle("/" , fs)
+	http.HandleFunc("/test" , test)
 	http.ListenAndServe(":" + port, nil)
 }
