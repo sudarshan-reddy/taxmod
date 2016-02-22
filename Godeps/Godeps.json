@@ -1,5 +1,5 @@
 {
-	"ImportPath": ".",
+	"ImportPath": "src/serv",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./.."
