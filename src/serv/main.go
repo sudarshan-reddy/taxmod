@@ -11,7 +11,7 @@ func test(w http.ResponseWriter, r *http.Request){
 }
 
 func main(){
-	fs := http.FileServer(http.Dir("./serv/app/publiasdadc/"))
+	fs := http.FileServer(http.Dir("./serv/app/public/"))
 	port := os.Getenv("PORT")
 	fmt.Println("Port being listened to: " , port)	
 	if port == "" {
